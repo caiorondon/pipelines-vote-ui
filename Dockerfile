@@ -1,5 +1,5 @@
 # Using official python runtime base image
-FROM default-route-openshift-image-registry.apps.cluster-solar-2902.solar-2902.sandbox1296.opentlc.com/openshift/python:latest
+FROM image-registry.openshift-image-registry.svc:5000/openshift/python:latest
 
 # Install our requirements.txt
 ADD requirements.txt /opt/app-root/src/requirements.txt
